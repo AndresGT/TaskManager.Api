@@ -35,3 +35,28 @@ API REST desarrollada con **.NET Core 8** que permite gestionar tareas de forma 
 
 ```bash
 cd ~/Desarrollo/Pruebas/TaskManager.Api
+```
+
+### 2. Restaurar dependencias (si es necesario)
+
+```bash
+dotnet restore
+```
+
+### 3. Ejecutar la aplicación
+
+```bash
+dotnet run
+```
+
+#### El backend se ejecutará en:
+
+-   HTTP: http://localhost:5250
+-   HTTPS: https://localhost:7250
+-   (El puerto puede variar según tu entorno)
+
+### 4. Ver documentación de la API (Swagger)
+**Abre tu navegador en**
+```bash
+https://localhost:7250/swagger
+```
